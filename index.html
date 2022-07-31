@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c875d39be.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Valentin</a>
+
+            <div class="nav-menu">
+                <ul>
+                    <li>
+                        <a href="">HOME</a>
+                    </li>
+                    <li>
+                        <a href="">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="">WORK</a>
+                    </li>
+                    <li>
+                        <a href="">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="profile container">
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="./img/foto-perfil.jpeg" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Valentin Giosso</h2>
+                <h3 class="profile__profession">Software Engineering</h3>
+
+                <ul class="profile__social">
+                    <a href="" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="" target="_blank" class="profile__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">2</h3>
+                    <p class="profile__info-description">Years of <br> work</p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+123</h3>
+                    <p class="profile__info-description">Completed <br> projects</p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">96</h3>
+                    <p class="profile__info-description">Satisfied <br> customers</p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <div class="btn-con">
+                    <a download="" href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+
+                <div class="profile__buttons-small">
+                    <a href="" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="filters container">
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#about">
+                    About
+                </button>
+
+                <button class="filters__button" data-target="#projects">
+                    Projects
+                </button>
+
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+
+                <button class="filters__button" data-target="#contact">
+                    Contact
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <div class="about__content grid filters__active" data-content id="about">
+                    <h3 class="about__subtitle subtitle">My Intro</h3>
+                    <h2 class="about__title title">About Me</h2>
+
+                    <div class="about__container container grid">
+                        <img src="./img/foto-perfil.jpeg" alt="">
+
+                        <div class="about__data">
+                            <div class="about__info">
+                                <div class="about__box">
+                                    <i class="fa-solid fa-award about__icon"></i>
+                                    <h3 class="about__box-title">Experience</h3>
+                                    <span class="about__box-subtitle">2 Years Working</span>
+                                </div>
+
+                                <div class="about__box">
+                                    <i class="fa-solid fa-briefcase about__icon"></i>
+                                    <h3 class="about__box-title">Completed</h3>
+                                    <span class="about__box-subtitle">+123 Projects</span>
+                                </div>
+
+                                <div class="about__box">
+                                    <i class="fa-solid fa-headset about__icon"></i>
+                                    <h3 class="about__box-title">Support</h3>
+                                    <span class="about__box-subtitle">Online 24/7</span>
+                                </div>
+                            </div>
+
+                            <p class="aboout__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugit officiis maiores
+                                aliquam deleniti, praesentium nihil possimus harum blanditiis id veritatis vel mollitia
+                                facilis ea. Labore ipsa quis nesciunt et?
+                            </p>
+
+                            <a href="#contact" class="button">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__content grid" data-content id="projects">
+                    <h3 class="project__subtitle subtitle">My Work</h3>
+                    <h2 class="project__title title">Portfolio</h2>
+
+                    <div class="projects__container container grid">
+                        <article class="projects__card">
+                            <img src="./img/vmg-web.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Enterprise site</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-external-link-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="./img/vmg-web.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Enterprise site</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-external-link-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="./img/vmg-web.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Enterprise site</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-external-link-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="./img/vmg-web.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Enterprise site</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-external-link-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="fa-brands fa-css3"></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="fa-brands fa-js-square"></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-angularjs-fill"></i>
+                                    <div>
+                                        <h3 class="skills__name">Angular</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-reactjs-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="fa-brands fa-git-alt"></i>
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="fa-brands fa-node-js"></i>
+                                    <div>
+                                        <h3 class="skills__name">Node.js</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="fa-solid fa-database"></i>
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="fa-brands fa-java"></i>
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="fa-solid fa-cloud"></i>
+                                    <div>
+                                        <h3 class="skills__name">Firebase</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="fa-brands fa-aws"></i>
+                                    <div>
+                                        <h3 class="skills__name">AWS</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Spring Boot</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content grid " data-content id="contact">
+                    <h3 class="section__subtitle subtitle">Get in touch</h3>
+                    <h2 class="section__title title">Contact Me</h2>
+
+                    <div class="contact__container container grid ">
+                        <div class="contact__content">
+                            <h3 class="contact__title">Talk to me</h3>
+
+                            <div class="contact__info">
+                                <div class="contact__card">
+                                    <i class="fa-solid fa-envelope contact__card-icon"></i>
+                                    <h3 class="contact__card-title">Email</h3>
+                                    <span class="contact__card-data">giossodev@gmail.com</span>
+
+                                </div>
+                            </div>
+
+                            <div class="contact__info">
+                                <div class="contact__card">
+                                    <i class="ri-whatsapp-line contact__card-icon"></i>
+                                    <h3 class="contact__card-title">Whatsapp</h3>
+                                    <span class="contact__card-data">+54 3571 662277</span>
+
+                                </div>
+                            </div>
+
+                            <div class="contact__info">
+                                <div class="contact__card">
+                                    <i class="ri-linkedin-box-line contact__card-icon"></i>
+                                    <h3 class="contact__card-title">Linkedin</h3>
+                                    <span class="contact__card-data">valegiosso</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <h3 class="contact__title">Write me your project</h3>
+
+                            <form action="" class="contact__form">
+                                <div class="contact__form-div">
+                                    <label for="" class="contact__form-tag">Names</label>
+                                    <input type="text" class="contact__form-input" placeholder="Insert your name">
+                                </div>
+
+                                <div class="contact__form-div">
+                                    <label for="" class="contact__form-tag">Mail</label>
+                                    <input type="email" class="contact__form-input" placeholder="Insert your mail">
+                                </div>
+
+                                <div class="contact__form-div contact__form-area">
+                                    <label for="" class="contact__form-tag">Proposal</label>
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your proposal"
+                                        class="contact__form-input"></textarea>
+                                </div>
+
+                                <button class="button">Send Message</button>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Valentin Giosso. All rigths reserved
+        </span>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
